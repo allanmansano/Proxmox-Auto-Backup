@@ -3,9 +3,9 @@
 
 ############ /START CONFIG
 drive="gd-backup_crypt"
-dumpdir="/mnt/pve/pvebackups01/dump" # Set this to where your vzdump files are stored
+dumpdir="/mnt/pve/DCB/dump" # Set this to where your vzdump files are stored
 MAX_AGE=3 # This is the age in days to keep local backup copies. Local backups older than this are deleted.
-MAX_CLOUD_AGE=31 # This is the age in days to keep cloud backup copies. Cloud backups older than this are deleted
+#MAX_CLOUD_AGE=31 # This is the age in days to keep cloud backup copies. Cloud backups older than this are deleted
 ############ /END CONFIG
 
 _bdir="$dumpdir"
